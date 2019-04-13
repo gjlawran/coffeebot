@@ -19,7 +19,7 @@ int lastButtonState = HIGH; // the previous reading from the input pin
 const String slack_hook_url = "https://hooks.slack.com/services/123456789";
  */
 
-#include <config.h>
+#include "config.h"
 const String slack_message = "A rockstar made coffee!!!";
 const String slack_username = "BunnBot";
 const String icon_emoji = ":coffee:";
